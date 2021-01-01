@@ -1,5 +1,6 @@
 
 ### Commands used:
+
 #### (1) creating project:
 npx create-react-app diaries-app --template typescript
 
@@ -11,6 +12,9 @@ npm install --save axios react-router-dom react-hook-form yup dayjs markdown-to-
 
 #### (4) installing types of libraries:
 npm install --save-dev miragejs @types/react-redux @types/react-router-dom @types/yup @types/markdown-to-jsx
+
+#### (5) installing types of react // fixing error
+npm install -D @types/react
 
 ### Commands End.
 

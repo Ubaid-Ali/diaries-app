@@ -9,7 +9,6 @@
     "@testing-library/user-event": "^12.1.10",
     "@types/jest": "^26.0.15",
     "@types/node": "^12.0.0",
-    "@types/react": "^16.9.53",
     "@types/react-dom": "^16.9.8",
     "axios": "^0.21.1",
     "dayjs": "^1.9.8",
@@ -52,6 +51,7 @@
   },
   "devDependencies": {
     "@types/markdown-to-jsx": "^6.11.3",
+    "@types/react": "^16.14.2",
     "@types/react-redux": "^7.1.14",
     "@types/react-router-dom": "^5.1.7",
     "@types/yup": "^0.29.11",
