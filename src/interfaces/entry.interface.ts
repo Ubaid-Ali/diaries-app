@@ -5,5 +5,5 @@ export interface Entry {
     content: string;
     createdAt?: string;
     updatedAt?: string;
-    diaryId: string;
-};
+    diaryId?: string;
+  }

@@ -5,4 +5,4 @@ export interface User {
     email: string;
     password?: string;
     diaryIds: string[] | null;
-};
+  }
