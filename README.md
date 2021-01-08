@@ -1,4 +1,6 @@
 
+## Deployed [https://diaries-app-ts.netlify.app/](Here)
+
 ### Commands used:
 
 #### (1) creating project:
