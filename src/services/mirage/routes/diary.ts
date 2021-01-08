@@ -10,9 +10,7 @@ export const create = (
     req: Request
 ): { user: User; diary: Diary } | Response => {
     try {
-        const { title, type, userId } = JSON.parse(req.requestBody) as Partial<
-            Diary
-        >;
+        const { title, type, userId } = JSON.parse(req.requestBody) as Partial<Diary>;
         const exUser = schema.users.findBy({ id: userId });
         if (!exUser) {
             return handleErrors(null, 'No such user exists.');

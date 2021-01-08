@@ -9,9 +9,6 @@ import { setCurrentlyEditing, setCanEdit } from '../entry/editorSlice';
 import dayjs from 'dayjs';
 import { useAppDispatch } from '../../store';
 
-// interface ID {
-//     id: Entry["id"]
-// }
 
 const DiaryEntriesList: FC = () => {
     const { entries } = useSelector((state: RootState) => state);
@@ -44,20 +41,23 @@ const DiaryEntriesList: FC = () => {
             </header>
 
             <ul>
-                {entries.map((entry) => {
-                    <li
+
+                {entries.map((entry) => (
+                    < li
                         key={entry.id}
                         onClick={() => {
                             dispatch(setCurrentlyEditing(entry));
                             dispatch(setCanEdit(true));
+                            console.log('entry', entry)
                         }}
                     >
                         {entry.title}
-                    </li>
-                })}
+                    </li>)
+                )}
+
             </ul>
 
-        </div>
+        </div >
     )
 };
 

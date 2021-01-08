@@ -5,10 +5,10 @@ import Editor from '../entry/Editor';
 const Home: FC = () => {
     return (
         <div className="two-cols" >
-            <div className="right">
+            <div className="left">
                 <Diaries />
             </div>
-            <div className="left">
+            <div className="right">
                 <Editor />
             </div>
         </div>
