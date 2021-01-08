@@ -1,5 +1,5 @@
 
-## Deployed [https://diaries-app-ts.netlify.app/](Here)
+## Deployed [Here](https://diaries-app-ts.netlify.app)
 
 ### Commands used:
 
